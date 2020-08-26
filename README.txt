@@ -2,7 +2,7 @@ PrimeBits is a series of projects that take a range between 0 and n and find all
 This project was started mainly for learning how to optimize run times. I wanted to see how quickly the program could find prime numbers in a large enough range.
 
 PrimeBits started in Java and was later adapted into C.
-If you want to run the C version, run prime.c
+If you want to run the C version, run prime.exe (recomended)
 If you want to run the Java version, run PrimeBits/src/PrimeBits/PrimeFinder.java
 
 

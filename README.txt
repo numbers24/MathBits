@@ -11,7 +11,7 @@ While the C adaptation does not have these features, it is consistantly faster t
 The Oracle version slows down around 1 billion while the C adaptation processes 1-10 billion quickly and slows down around 100 billion.
 Since the algorithm interludes on multiples of 6, there can be primes that go above the range by accident.
 
-Here is how the optimized algorithm I developed for this code works
+Here is how the optimized algorithm I developed for this code works (This is explicatley the C code, which is refined from the Java version)
 
 Rules
 -Prime numbers (i.e. 2,3,5,7...) cannot be devisable by any other number. Therefore, a prime number should never return 0 when you modulate it unless it is modulated by itself or 1 (7%7,7%1)
